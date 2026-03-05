@@ -39,7 +39,7 @@ import { Avatar, AvatarFallback } from '@/components/ui/avatar'
 import { TaskCard } from '@/components/TaskCard'
 import { TaskForm } from '@/components/TaskForm'
 import { tasksApi } from '@/api/tasks'
-import { useAuth } from '@/hooks/useAuth'
+import { useAuth } from '@/context/AuthContext'
 import type { Task, TaskFilters, TaskStatus } from '@/types'
 
 export function Home() {
